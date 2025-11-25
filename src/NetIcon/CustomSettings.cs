@@ -29,10 +29,10 @@ namespace NetIcon
             set { SetValueByMethod(MethodBase.GetCurrentMethod(), value); }
         }
 
-        public int maxBandwithBitPerSecond
+        public long maxBandwithBitPerSecond
         {
-            get { return GetValueByMethod(MethodBase.GetCurrentMethod(), 10 * 1024 * 1024); }
-            set { SetValueByMethod(MethodBase.GetCurrentMethod(), value); }
+            get { return GetValueByMethod_Long(MethodBase.GetCurrentMethod(), 10 * 1024 * 1024); }
+            set { SetValueByMethod_Long(MethodBase.GetCurrentMethod(), value); }
         }
 
         public int updateInterval

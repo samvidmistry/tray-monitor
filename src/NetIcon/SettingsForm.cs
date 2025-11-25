@@ -38,7 +38,7 @@ namespace NetIcon
             settings.backgroundColor = Utils.ColorFromString(networkBackgroundText.Text);
             settings.borderColor = Utils.ColorFromString(networkBorderText.Text);
             settings.updateInterval = (int)networkInterval.Value;
-            settings.maxBandwithBitPerSecond = (int)(networkMaxBandwidth.Value * 1024 * 1024);
+            settings.maxBandwithBitPerSecond = (long)(networkMaxBandwidth.Value * 1024 * 1024);
 
             Close();
         }
