@@ -1,4 +1,4 @@
-﻿using System.Resources;
+using System.Resources;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RamIcon")]
+[assembly: AssemblyTitle("GpuIcon")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("strayge")]
-[assembly: AssemblyProduct("RamIcon")]
-[assembly: AssemblyCopyright("Copyright © 2025 strayge")]
+[assembly: AssemblyProduct("GpuIcon")]
+[assembly: AssemblyCopyright("Copyright � 2025 strayge")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7a56d729-2e38-4145-9604-61ead7aebc62")]
+[assembly: Guid("8a3d7e8f-6c5b-4e29-9cf8-1dab9e2c37f5")]
 
 // Version information for an assembly consists of the following four values:
 //

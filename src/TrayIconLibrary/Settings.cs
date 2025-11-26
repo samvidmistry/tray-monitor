@@ -42,6 +42,11 @@ namespace TrayIconLibrary
             return storage.ReadInt(section, method.Name.Remove(0, 4), defaultValue);
         }
 
+        public long GetValueByMethod_Long(MethodBase method, long defaultValue)
+        {
+            return storage.ReadLong(section, method.Name.Remove(0, 4), defaultValue);
+        }
+
         public void SetValueByMethod(MethodBase method, string value)
         {
             storage.Write(section, method.Name.Remove(0, 4), value);
@@ -55,6 +60,11 @@ namespace TrayIconLibrary
         public void SetValueByMethod(MethodBase method, int value)
         {
             storage.WriteInt(section, method.Name.Remove(0, 4), value);
+        }
+
+        public void SetValueByMethod_Long(MethodBase method, long value)
+        {
+            storage.WriteLong(section, method.Name.Remove(0, 4), value);
         }
 
     }

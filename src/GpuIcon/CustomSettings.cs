@@ -1,19 +1,19 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Drawing;
 using TrayIconLibrary;
 
-namespace NetIcon
+namespace GpuIcon
 {
     class CustomSettings : Settings<CustomSettings>
     {
         public CustomSettings()
         {
-            this.section = "network";
+            this.section = "gpu";
         }
 
         public Color foregroundColor
         {
-            get { return GetValueByMethod_Color(MethodBase.GetCurrentMethod(), "#FF00FF00"); }
+            get { return GetValueByMethod_Color(MethodBase.GetCurrentMethod(), "#FFFF8800"); }
             set { SetValueByMethod(MethodBase.GetCurrentMethod(), value); }
         }
 
@@ -25,14 +25,8 @@ namespace NetIcon
 
         public Color borderColor
         {
-            get { return GetValueByMethod_Color(MethodBase.GetCurrentMethod(), "#9900FF00"); }
+            get { return GetValueByMethod_Color(MethodBase.GetCurrentMethod(), "#99FFAA00"); }
             set { SetValueByMethod(MethodBase.GetCurrentMethod(), value); }
-        }
-
-        public long maxBandwithBitPerSecond
-        {
-            get { return GetValueByMethod_Long(MethodBase.GetCurrentMethod(), 10 * 1024 * 1024); }
-            set { SetValueByMethod_Long(MethodBase.GetCurrentMethod(), value); }
         }
 
         public int updateInterval

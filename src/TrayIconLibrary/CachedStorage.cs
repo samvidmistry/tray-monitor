@@ -68,5 +68,16 @@ namespace TrayIconLibrary
             string value = Read(section, name, default_value.ToString());
             return Convert.ToInt32(value);
         }
+
+        public void WriteLong(string section, string name, long value)
+        {
+            Write(section, name, value.ToString());
+        }
+
+        public long ReadLong(string section, string name, long default_value = 0)
+        {
+            string value = Read(section, name, default_value.ToString());
+            return Convert.ToInt64(value);
+        }
     }
 }

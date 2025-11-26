@@ -89,7 +89,7 @@ namespace NetIcon
             Color borderColor = settings.borderColor;
 
             int pointWidth = WidthSingleMeasurement();
-            int bandwidthMaxMbit = settings.maxBandwithBitPerSecond / 1024 / 1024;
+            long bandwidthMaxMbit = settings.maxBandwithBitPerSecond / 1024 / 1024;
 
             int iconSize = GetTrayIconsSize();
             using (Bitmap bitmap = new Bitmap(iconSize, iconSize))
