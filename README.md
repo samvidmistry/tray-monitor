@@ -7,6 +7,7 @@ See your system's loading in tray.
 Different icons for:  
 - battery status (with percentage, remaining time and charging status)
 - CPU (including color marking for throttling)
+- GPU
 - memory
 - network I/O
 - disk I/O
@@ -28,4 +29,4 @@ All colors, update intervals and some other parameters can be changed via GUI se
 
 ## Compiling
 
-This project was compiled with Visual Studio 2019.
+This project was compiled with Visual Studio 2026.
