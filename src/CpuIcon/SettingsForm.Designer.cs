@@ -150,7 +150,7 @@ namespace CpuIcon
             // cpuMetricUtility
             // 
             this.cpuMetricUtility.AutoSize = true;
-            this.cpuMetricUtility.Location = new System.Drawing.Point(217, 12);
+            this.cpuMetricUtility.Location = new System.Drawing.Point(324, 12);
             this.cpuMetricUtility.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cpuMetricUtility.Name = "cpuMetricUtility";
             this.cpuMetricUtility.Size = new System.Drawing.Size(87, 34);
@@ -162,7 +162,7 @@ namespace CpuIcon
             // cpuMetricTime
             // 
             this.cpuMetricTime.AutoSize = true;
-            this.cpuMetricTime.Location = new System.Drawing.Point(324, 12);
+            this.cpuMetricTime.Location = new System.Drawing.Point(217, 12);
             this.cpuMetricTime.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cpuMetricTime.Name = "cpuMetricTime";
             this.cpuMetricTime.Size = new System.Drawing.Size(76, 34);
